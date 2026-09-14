@@ -17,7 +17,7 @@ export const endpoints = {
 };
 
 // const url = `https://fmg.mark4.ge/api/`;
-const url = `https://10.10.220.1/api`;
+const url = `http://10.10.220.1:81/api`;
 
 const axiosAutorization = axios.create({
   baseURL: url,
