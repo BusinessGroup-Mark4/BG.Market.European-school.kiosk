@@ -60,7 +60,7 @@ axiosInstance.interceptors.response.use(
 // axios operation
 const axiosOperationInstance = axios.create({
   // baseURL: "https://fmg.mark4.ge/",
-  baseURL: "https://10.10.220.1/",
+  baseURL: "http://10.10.220.1:81/",
 
   headers: {
     Accept: "application/json",
