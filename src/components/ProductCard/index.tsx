@@ -69,7 +69,7 @@ const ProductCard = ({
     e.stopPropagation();
   };
 
-  const productImage = `http://10.10.220.1:81/api/GetProductPicture?ProdCode=${product.ProdCode}`;
+  const productImage = `http://10.30.220.1:81/api/GetProductPicture?ProdCode=${product.ProdCode}`;
 
   return (
     <div

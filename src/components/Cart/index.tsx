@@ -151,7 +151,7 @@ const Cart = () => {
             </p>
 
             <img
-              src={`http://10.10.220.1:81/api/GetProductPicture?ProdCode=${product.ProdCode}`}
+              src={`http://10.30.220.1:81/api/GetProductPicture?ProdCode=${product.ProdCode}`}
               alt=""
             />
             <h3>

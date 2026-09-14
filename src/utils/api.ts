@@ -17,7 +17,7 @@ export const endpoints = {
 };
 
 // const url = `https://fmg.mark4.ge/api/`;
-const url = `http://10.10.220.1:81/api`;
+const url = `http://10.30.220.1:81/api`;
 
 const axiosAutorization = axios.create({
   baseURL: url,
@@ -60,7 +60,7 @@ axiosInstance.interceptors.response.use(
 // axios operation
 const axiosOperationInstance = axios.create({
   // baseURL: "https://fmg.mark4.ge/",
-  baseURL: "http://10.10.220.1:81/",
+  baseURL: "http://10.30.220.1:81/",
 
   headers: {
     Accept: "application/json",
